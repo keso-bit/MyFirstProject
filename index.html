@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veluar — პრივატული საცხოვრებელი მთაში | Quiet Luxury Mountain Retreat</title>
+  <meta name="description" content="Veluar — პრივატული საცხოვრებელი მთაში, სადაც სიმშვიდე, ხელუხლებელი ბუნება და მშვიდი ლუქსი ჰარმონიულად ერწყმის ერთმანეთს.">
+  
+  <!-- Favicon Icon (SVG inline data URI) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='50,15 85,80 15,80' fill='%23d4af37'/><path d='M50,35 L70,75 L30,75 Z' fill='%230a1f18'/></svg>">
+
+  <!-- Google Fonts: Cormorant Garamond, Noto Serif Georgian & Noto Sans Georgian, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Noto+Sans+Georgian:wght@300;400;500;600;700&family=Noto+Serif+Georgian:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER & NAVIGATION ================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <!-- Logo -->
+      <a href="#hero" class="logo" aria-label="Veluar Home">
+        <span class="logo-mark">V</span>
+        <div class="logo-text-group">
+          <span class="logo-name">VELUAR</span>
+          <span class="logo-sub">მთის რეზიდენცია</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="ძირითადი ნავიგაცია">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">მთავარი</a></li>
+          <li><a href="#about" class="nav-link">ჩვენ შესახებ</a></li>
+          <li><a href="#features" class="nav-link">უპირატესობები</a></li>
+          <li><a href="#contact" class="nav-link">კონტაქტი</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header CTA Button -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-gold btn-sm header-cta">დაჯავშნა</a>
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="მენიუს გახსნა" aria-expanded="false" aria-controls="mobileNav">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay -->
+  <div class="mobile-nav-backdrop" id="mobileNavBackdrop"></div>
+  <nav class="mobile-nav" id="mobileNav" aria-label="მობილური ნავიგაცია" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <div class="logo">
+        <span class="logo-mark">V</span>
+        <span class="logo-name">VELUAR</span>
+      </div>
+      <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="მენიუს დახურვა">&times;</button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#hero" class="mobile-nav-link">მთავარი</a></li>
+      <li><a href="#about" class="mobile-nav-link">ჩვენ შესახებ</a></li>
+      <li><a href="#features" class="mobile-nav-link">უპირატესობები</a></li>
+      <li><a href="#contact" class="mobile-nav-link">კონტაქტი</a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <a href="#contact" class="btn btn-gold w-100 mobile-cta">დაჯავშნა</a>
+      <div class="mobile-contact-peek">
+        <p>✦ ყაზბეგის მთები, საქართველო</p>
+        <p>+995 (32) 2 100 200</p>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ================= 1. HERO SECTION ================= -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-wrapper">
+        <img src="images/hero.jpg" alt="Veluar მთის პრივატული საცხოვრებელი" class="hero-bg-img" loading="eager">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-content reveal-fade-up">
+          <div class="badge-pill">
+            <span class="badge-dot"></span>
+            <span class="badge-text">პრივატული თავშესაფარი მთაში</span>
+          </div>
+
+          <h1 class="hero-title">
+            სიმშვიდის ხელოვნება<br>
+            <span class="text-champagne">ხელუხლებელ მწვერვალებზე</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Veluar — ექსკლუზიური საცხოვრებელი მათთვის, ვინც ეძებს მშვიდ ლუქსს, აბსოლუტურ განმარტოებასა და უმაღლესი დონის კომფორტს ალპური ბუნების წიაღში.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-gold btn-lg">
+              <span>დაჯავშნე ვიზიტი</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#about" class="btn btn-outline-glass btn-lg">
+              <span>აღმოაჩინე ისტორია</span>
+            </a>
+          </div>
+
+          <!-- Hero Highlights / Floating Stats -->
+          <div class="hero-stats">
+            <div class="hero-stat-item">
+              <span class="stat-number">2,150 მ</span>
+              <span class="stat-label">სიმაღლე ზღვის დონიდან</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="hero-stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">პრივატული სივრცე</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="hero-stat-item">
+              <span class="stat-number">360°</span>
+              <span class="stat-label">პანორამული ხედები</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="ჩასქროლვა ქვემოთ">
+        <span class="scroll-text">გადაფურცლეთ</span>
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+      </a>
+    </section>
+
+
+    <!-- ================= 2. ABOUT SECTION ================= -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          
+          <!-- About Text Content -->
+          <div class="about-text-col reveal-on-scroll">
+            <div class="section-tag">
+              <span class="tag-line"></span>
+              <span class="tag-title">ჩვენ შესახებ</span>
+            </div>
+
+            <h2 class="section-heading">
+              სადაც მთის დუმილი <br>
+              <span class="text-bordeaux">მშვიდ ფუფუნებად იქცევა</span>
+            </h2>
+
+            <p class="lead-text">
+              Veluar შეიქმნა როგორც პრივატული ოაზისი, სადაც ყოველდღიური ქაოსი ქრება და იწყება ჰარმონიული თანაცხოვრება ხელუხლებელ ბუნებასთან.
+            </p>
+
+            <p class="body-text">
+              კომპლექსი აშენებულია ადგილობრივი ქვის, მუქი კედრისა და პანორამული ენერგოეფექტური მინის სინთეზით. არქიტექტურა ორგანულად ერწყმის კავკასიონის მთების რელიეფს, ინტერიერში კი ცოცხალი ბუხრის სითბო, შამპანურისფერი დეტალები და ზურმუხტისფერი ტონები უსაზღვრო სიმყუდროვეს ქმნის.
+            </p>
+
+            <div class="quote-box">
+              <div class="quote-gold-bar"></div>
+              <p class="quote-text">
+                „აქ დრო აღარ იზომება საათებით — ის იზომება ნისლის მოძრაობით, წიწვოვანი ტყის სურნელითა და ვარსკვლავიანი ცის სიღრმით.“
+              </p>
+            </div>
+
+            <div class="about-features-inline">
+              <div class="inline-feature-item">
+                <div class="feature-bullet-icon">✦</div>
+                <div>
+                  <h4 class="inline-feature-title">არქიტექტურული ეკოლოგია</h4>
+                  <p class="inline-feature-desc">ბუნებრივი მასალები და გარემოსთან სრული ინტეგრაცია.</p>
+                </div>
+              </div>
+              <div class="inline-feature-item">
+                <div class="feature-bullet-icon">✦</div>
+                <div>
+                  <h4 class="inline-feature-title">სრული განცალკევება</h4>
+                  <p class="inline-feature-desc">შემოზღუდული კერძო ტერიტორია და ინდივიდუალური მიდგომა.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-action">
+              <a href="#features" class="btn btn-emerald">
+                <span>შეიტყვეთ მეტი შესაძლებლობებზე</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- About Media / Imagery -->
+          <div class="about-media-col reveal-on-scroll">
+            <div class="media-frame-wrapper">
+              <div class="gold-border-accent"></div>
+              <div class="media-image-card">
+                <img src="images/about.jpg" alt="Veluar ინტერიერი ბუხრითა და მთის ხედით" class="about-img" loading="lazy">
+              </div>
+              <!-- Floating Glass Card -->
+              <div class="floating-stat-card">
+                <div class="floating-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                  </svg>
+                </div>
+                <div class="floating-content">
+                  <span class="floating-title">Bespoke Living</span>
+                  <span class="floating-subtitle">მხოლოდ 4 პრივატული რეზიდენცია</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= 3. FEATURES SECTION ================= -->
+    <section class="features-section" id="features">
+      <div class="features-bg-ornament"></div>
+      <div class="container">
+        
+        <div class="section-header text-center reveal-on-scroll">
+          <div class="section-tag justify-center">
+            <span class="tag-line"></span>
+            <span class="tag-title">უპირატესობები</span>
+            <span class="tag-line"></span>
+          </div>
+          <h2 class="section-heading text-light">
+            დახვეწილი გამოცდილება <br>
+            <span class="text-champagne">თქვენი სრული სიმშვიდისთვის</span>
+          </h2>
+          <p class="section-desc">
+            Veluar-ში ყოველი მომენტი გააზრებულია: აქ ფუფუნება არ არის ხმაურიანი — ის გამოიხატება სიჩუმეში, სითბოსა და უნაკლო ზრუნვაში.
+          </p>
+        </div>
+
+        <!-- 3 Feature Cards -->
+        <div class="features-grid">
+
+          <!-- Card 1 -->
+          <article class="feature-card reveal-on-scroll" data-delay="100">
+            <div class="card-glow"></div>
+            <div class="card-header-icon">
+              <!-- Mountain Privacy Sanctuary SVG Icon -->
+              <div class="icon-wrap">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
+                  <path d="M4.14 15.08c2.62-1.57 5.24-1.43 7.86.42 2.74 1.94 5.49 2 8.23.19"></path>
+                </svg>
+              </div>
+              <span class="card-number">01</span>
+            </div>
+
+            <h3 class="card-title">აბსოლუტური პრივატულობა</h3>
+            
+            <p class="card-text">
+              ხელუხლებელი ალპური ტყით გარშემორტყმული იზოლირებული სივრცე. პირადი შესასვლელი, 24/7 დაცული ტერიტორია და გარანტირებული სიმშვიდე უცხო თვალისგან შორს.
+            </p>
+
+            <div class="card-badge">
+              <span>დაცული გარემო</span>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="feature-card reveal-on-scroll" data-delay="200">
+            <div class="card-glow"></div>
+            <div class="card-header-icon">
+              <!-- Panoramic Wellness / Thermal Pool SVG Icon -->
+              <div class="icon-wrap">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 12h20M2 16h20M2 20h20"/>
+                  <path d="M6 8a4 4 0 0 1 4-4c1.5 0 2.5 1 3 2s1.5 2 3 2a4 4 0 0 0 4-4"/>
+                </svg>
+              </div>
+              <span class="card-number">02</span>
+            </div>
+
+            <h3 class="card-title">პანორამული ველნესი</h3>
+            
+            <p class="card-text">
+              ღია ცის ქვეშ გამათბობელი ინფინიტი-აუზი, ფინური კედრის საუნა და ცხელი თერმული აბაზანები თოვლიანი მწვერვალების პირისპირ სხეულისა და გონების აღდგენისთვის.
+            </p>
+
+            <div class="card-badge">
+              <span>თერმული წყლები & საუნა</span>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="feature-card reveal-on-scroll" data-delay="300">
+            <div class="card-glow"></div>
+            <div class="card-header-icon">
+              <!-- Concierge / Fine Dining & Service SVG Icon -->
+              <div class="icon-wrap">
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+              </div>
+              <span class="card-number">03</span>
+            </div>
+
+            <h3 class="card-title">პერსონალური სერვისი</h3>
+            
+            <p class="card-text">
+              ინდივიდუალური შეფ-მზარეულის ავთენტური გასტრონომია ეკოლოგიური ადგილობრივი პროდუქტებით, დახვეწილი ღვინის მარანი და პერსონალური კონსიერჟი ნებისმიერი სურვილისთვის.
+            </p>
+
+            <div class="card-badge">
+              <span>Bespoke Concierge</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ================= 4. CONTACT SECTION ================= -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        
+        <div class="contact-card-wrapper reveal-on-scroll">
+          <div class="contact-grid">
+            
+            <!-- Left Column: Contact Info & Atmosphere -->
+            <div class="contact-info-col">
+              <div class="section-tag">
+                <span class="tag-line bg-champagne"></span>
+                <span class="tag-title text-champagne">დაგვიკავშირდით</span>
+              </div>
+
+              <h2 class="contact-heading">
+                დაჯავშნეთ თქვენი <br>
+                <span class="text-champagne">განმარტოების დღეები</span>
+              </h2>
+
+              <p class="contact-lead">
+                გაქვთ შეკითხვები რეზიდენციის, ხელმისაწვდომი თარიღების ან პერსონალური მოთხოვნების შესახებ? მოგვწერეთ და ჩვენი გუნდი უმოკლეს დროში დაგიკავშირდებათ.
+              </p>
+
+              <!-- Contact Details List -->
+              <div class="contact-details-list">
+                
+                <div class="contact-item">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="contact-item-text">
+                    <span class="contact-label">მდებარეობა</span>
+                    <span class="contact-val">სტეფანწმინდა / ყაზბეგის მწვერვალები, საქართველო</span>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div class="contact-item-text">
+                    <span class="contact-label">ტელეფონი</span>
+                    <a href="tel:+995322100200" class="contact-link">+995 (32) 2 100 200</a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="contact-item-text">
+                    <span class="contact-label">ელფოსტა</span>
+                    <a href="mailto:concierge@veluar.ge" class="contact-link">concierge@veluar.ge</a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div class="contact-item-text">
+                    <span class="contact-label">მიღების საათები</span>
+                    <span class="contact-val">ყოველდღე, 09:00 - 21:00 (კონსიერჟი 24/7)</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Champagne Seal / Monogram -->
+              <div class="residence-seal">
+                <span class="seal-icon">✦</span>
+                <span class="seal-text">Veluar Private Estate — ექსკლუზიური წვდომა წინასწარი ჯავშნით</span>
+              </div>
+            </div>
+
+            <!-- Right Column: Interactive Contact Form -->
+            <div class="contact-form-col">
+              <div class="form-wrapper">
+                <h3 class="form-title">მოთხოვნის გაგზავნა</h3>
+                <p class="form-subtitle">შეავსეთ მარტივი ფორმა და ჩვენი კონსიერჟი გაგიწევთ სრულ მხარდაჭერას.</p>
+
+                <form id="contactForm" class="contact-form" novalidate>
+                  
+                  <!-- Name Input -->
+                  <div class="form-group">
+                    <label for="userName" class="form-label">თქვენი სახელი და გვარი <span class="required-star">*</span></label>
+                    <div class="input-wrapper">
+                      <input type="text" id="userName" name="name" class="form-input" placeholder="მაგ: გიორგი ბერიძე" required autocomplete="name">
+                      <span class="input-focus-border"></span>
+                    </div>
+                    <span class="field-error" id="nameError">გთხოვთ მიუთითოთ სახელი და გვარი</span>
+                  </div>
+
+                  <!-- Email Input -->
+                  <div class="form-group">
+                    <label for="userEmail" class="form-label">ელექტრონული ფოსტა <span class="required-star">*</span></label>
+                    <div class="input-wrapper">
+                      <input type="email" id="userEmail" name="email" class="form-input" placeholder="name@example.com" required autocomplete="email">
+                      <span class="input-focus-border"></span>
+                    </div>
+                    <span class="field-error" id="emailError">გთხოვთ შეიყვანოთ სწორი ელფოსტის მისამართი</span>
+                  </div>
+
+                  <!-- Message Input -->
+                  <div class="form-group">
+                    <label for="userMessage" class="form-label">შეტყობინება ან სასურველი თარიღები <span class="required-star">*</span></label>
+                    <div class="input-wrapper">
+                      <textarea id="userMessage" name="message" class="form-textarea" rows="4" placeholder="დაწერეთ თქვენი შეკითხვა, სტუმრების რაოდენობა ან სასურველი პერიოდი..." required></textarea>
+                      <span class="input-focus-border"></span>
+                    </div>
+                    <span class="field-error" id="messageError">გთხოვთ შეიყვანოთ თქვენი შეტყობინება</span>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <button type="submit" class="btn btn-gold btn-block" id="submitBtn">
+                    <span class="btn-text">მოთხოვნის გაგზავნა</span>
+                    <span class="btn-spinner" aria-hidden="true"></span>
+                  </button>
+
+                  <p class="form-privacy-note">
+                    🔒 თქვენი პერსონალური მონაცემები სრულიად კონფიდენციალური და დაცულია.
+                  </p>
+                </form>
+
+                <!-- Success Confirmation Message -->
+                <div class="form-success-alert" id="formSuccessAlert" role="alert" aria-live="polite">
+                  <div class="success-icon-wrap">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <h4 class="success-title">მადლობთ, მოთხოვნა მიღებულია!</h4>
+                  <p class="success-desc">Veluar-ის პერსონალური კონსიერჟი დაგიკავშირდებათ მითითებულ ელფოსტაზე უახლოესი 2 საათის განმავლობაში.</p>
+                  <button type="button" class="btn btn-outline-dark btn-sm reset-form-btn" id="resetFormBtn">ახალი შეტყობინების გაგზავნა</button>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-mark">V</span>
+            <div class="logo-text-group">
+              <span class="logo-name">VELUAR</span>
+              <span class="logo-sub">მთის რეზიდენცია</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            ექსკლუზიური სიმშვიდე და უზადო კომფორტი კავკასიონის ხელუხლებელ მწვერვალებში.
+          </p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">ნავიგაცია</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">მთავარი</a></li>
+            <li><a href="#about">ჩვენ შესახებ</a></li>
+            <li><a href="#features">უპირატესობები</a></li>
+            <li><a href="#contact">კონტაქტი & ჯავშანი</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">კონფიდენციალურობა</h4>
+          <ul class="footer-links">
+            <li><a href="#hero" class="legal-link">პრივატულობის პოლიტიკა</a></li>
+            <li><a href="#hero" class="legal-link">წესები და პირობები</a></li>
+            <li><a href="#hero" class="legal-link">სტუმრის ეტიკეტი</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-col-title">სოციალური ქსელები</h4>
+          <div class="social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">© 2026 Veluar Mountain Residence. ყველა უფლება დაცულია.</p>
+        <p class="credit">შექმნილია მშვიდი ლუქსის მოყვარულთათვის</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="გვერდის დასაწყისში დაბრუნება">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
